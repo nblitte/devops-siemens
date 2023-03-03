@@ -36,7 +36,6 @@
                     <version>3.9.0</version>
                 </dependency>  		
   </dependencies>
-  <profile>
     <build>
         <!-- Source directory configuration -->
         <sourceDirectory>src</sourceDirectory>
