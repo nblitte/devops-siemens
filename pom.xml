@@ -46,16 +46,21 @@
             <artifactId>maven-surefire-plugin</artifactId>
             <version>3.0.0-M9</version>
                 <configuration>
-                    <includeJUnit5Engines>
-                    <!--Possibilité d'exclure avec certains tags ou expressions-->
-                    <engine>my-first-engine-id-to-include</engine>
-                    <engine>my-second-engine-id-to-include</engine>
+                !--Possibilité d'exclure avec certains tags ou expressions-->
+                   <!-- <includeJUnit5Engines>
+                    <
+                    <engine>TNR_**</engine>
                 </includeJUnit5Engines>
                 <excludeJUnit5Engines>
-                    <engine>my-first-engine-id-to-include</engine>
-                    <engine>my-second-engine-id-to-include</engine>
+                    <engine>WI6.1.20_**</engine>
                 </excludeJUnit5Engines>
-                <!-- Reporting -->
+                -->
+                <includes>
+                    <include>WI6.1.20_*.java</include>
+                </includes>
+                <excludes>
+                    <exclude>**/Test.java</exclude>
+               <!-- Reporting -->
                     <statelessTestsetReporter implementation="org.apache.maven.plugin.surefire.extensions.junit5.JUnit5Xml30StatelessReporter">
                     <disable>false</disable>
                     <version>3.0</version>
