@@ -1,14 +1,9 @@
 package test.java.Evolutions;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.concurrent.TimeUnit;
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.*;
 
 public class webosteoTest {
 

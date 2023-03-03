@@ -49,10 +49,10 @@
                 <!--Possibilité d'exclure avec certains tags ou expressions-->
 
                 <includes>
-                    <include>WI6.1.20_*.java</include>
+                    <include>WI6.1.20_*Test.java</include>
                 </includes>
                 <excludes>
-                    <exclude>**/Test.java</exclude>
+                    <exclude>TNR*Test.java</exclude>
                 </excludes>
                <!-- Reporting -->
                     <statelessTestsetReporter implementation="org.apache.maven.plugin.surefire.extensions.junit5.JUnit5Xml30StatelessReporter">
