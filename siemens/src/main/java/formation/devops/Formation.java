@@ -5,6 +5,7 @@ package formation.devops;
  *
  */
 //Modification du code
+//Test 2
 public class Formation 
 {
     public static void main( String[] args )
