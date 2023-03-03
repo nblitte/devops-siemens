@@ -37,8 +37,7 @@
                 </dependency>  		
   </dependencies>
   <profile>
-  <id>select-junit5</id>
-  <build>
+    <build>
         <!-- Source directory configuration -->
         <sourceDirectory>src</sourceDirectory>
         <plugins>
@@ -78,6 +77,7 @@
                     <usePhrasedClassNameInTestCaseSummary>true</usePhrasedClassNameInTestCaseSummary>
                 </statelessTestsetInfoReporter>
                 </configuration>
+                </plugin>
             <!-- Compiler plugin configures the java version to be usedfor compiling 
                 the code -->
             <plugin>
@@ -86,7 +86,6 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-
             <dependencies>
                 <dependency>
                     <groupId>org.junit.jupiter</groupId>
@@ -96,7 +95,6 @@
              </dependencies>
         </plugin>
         </plugins>   
-            
-            
+               
     </build>
 </project>
