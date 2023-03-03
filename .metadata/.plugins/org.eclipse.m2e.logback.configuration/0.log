@@ -1,0 +1,134 @@
+2022-11-08 11:56:02,577 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2022-11-08 11:59:21,689 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/maven/archetypes/selenium-testng/1.0/selenium-testng-1.0.pom
+2022-11-08 11:59:21,781 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/maven/archetypes/selenium-testng/1.0/selenium-testng-1.0.pom
+2022-11-08 11:59:21,822 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/maven/archetypes/selenium-testng/1.0/selenium-testng-1.0.jar
+2022-11-08 11:59:21,964 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/maven/archetypes/selenium-testng/1.0/selenium-testng-1.0.jar
+2022-11-08 12:00:35,240 [Worker-25: Launching mavenrun-c05666f8-cfad-4100-8ed0-bbcbd5414240] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\NathalieBLITTE\eclipse-workspace
+2022-11-08 12:00:35,243 [Worker-25: Launching mavenrun-c05666f8-cfad-4100-8ed0-bbcbd5414240] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DarchetypeVersion=1.0 -Dpackage=formation.testeur -DarchetypeGroupId=org.jboss.maven.archetypes -DarchetypeArtifactId=selenium-testng -DgroupId=formation -DartifactId=testeur -DoutputDirectory=C:\Users\NathalieBLITTE\eclipse-workspace -Dversion=0.0.1-SNAPSHOT -Dstyle.color=always -U archetype:generate
+2022-11-08 12:12:01,278 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\NathalieBLITTE\eclipse-workspace\testeur\pom.xml
+2022-11-08 12:12:01,709 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/selenium-maven-plugin/maven-metadata.xml
+2022-11-08 12:12:01,742 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/selenium-maven-plugin/maven-metadata.xml
+2022-11-08 12:12:01,793 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://snapshots.repository.codehaus.org/org/codehaus/mojo/selenium-maven-plugin/maven-metadata.xml
+2022-11-08 12:12:01,797 [Worker-2: Creating selenium-testng] WARN  o.e.m.c.i.embedder.EclipseLogger - Could not transfer metadata org.codehaus.mojo:selenium-maven-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): snapshots.repository.codehaus.org
+2022-11-08 12:12:01,832 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/selenium-maven-plugin/2.3/selenium-maven-plugin-2.3.pom
+2022-11-08 12:12:01,867 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/selenium-maven-plugin/2.3/selenium-maven-plugin-2.3.pom
+2022-11-08 12:12:01,894 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/30/mojo-parent-30.pom
+2022-11-08 12:12:01,934 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/30/mojo-parent-30.pom
+2022-11-08 12:12:01,954 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+2022-11-08 12:12:01,981 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+2022-11-08 12:12:02,005 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/selenium-maven-plugin/2.3/selenium-maven-plugin-2.3.jar
+2022-11-08 12:12:02,060 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/selenium-maven-plugin/2.3/selenium-maven-plugin-2.3.jar
+2022-11-08 12:12:04,155 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: formation:testeur:0.0.1-SNAPSHOT @ C:\Users\NathalieBLITTE\eclipse-workspace\testeur\pom.xml.
+2022-11-08 12:13:44,543 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://archiva.openqa.org/repository/releases/org/testng/testng/5.8/testng-5.8.pom
+2022-11-08 12:13:44,624 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/testng/testng/5.8/testng-5.8.pom
+2022-11-08 12:13:44,652 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/testng/testng/5.8/testng-5.8.pom
+2022-11-08 12:15:24,693 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://archiva.openqa.org/repository/releases/org/openqa/selenium/client-drivers/selenium-java-client-driver/1.0-beta-1/selenium-java-client-driver-1.0-beta-1.pom
+2022-11-08 12:15:24,709 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openqa/selenium/client-drivers/selenium-java-client-driver/1.0-beta-1/selenium-java-client-driver-1.0-beta-1.pom
+2022-11-08 12:15:24,712 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://archiva.openqa.org/repository/releases/org/openqa/selenium/server/selenium-server-coreless/1.0-beta-1/selenium-server-coreless-1.0-beta-1.pom
+2022-11-08 12:15:24,719 [Worker-2: Creating selenium-testng] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openqa/selenium/server/selenium-server-coreless/1.0-beta-1/selenium-server-coreless-1.0-beta-1.pom
+2022-11-08 12:17:06,094 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://archiva.openqa.org/repository/releases/org/testng/testng/5.8/testng-5.8-sources.jar
+2022-11-08 12:17:06,263 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/testng/testng/5.8/testng-5.8-sources.jar
+2022-11-08 12:17:06,485 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/testng/testng/5.8/testng-5.8-sources.jar
+2022-11-08 12:17:06,486 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.testng:testng:5.8jdk15
+2022-11-08 12:18:46,808 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://archiva.openqa.org/repository/releases/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2022-11-08 12:18:46,892 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2022-11-08 12:18:46,961 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2022-11-08 12:18:46,963 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2022-11-08 12:20:27,008 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://archiva.openqa.org/repository/releases/org/openqa/selenium/client-drivers/selenium-java-client-driver/1.0-beta-1/selenium-java-client-driver-1.0-beta-1-sources.jar
+2022-11-08 12:20:27,101 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openqa/selenium/client-drivers/selenium-java-client-driver/1.0-beta-1/selenium-java-client-driver-1.0-beta-1-sources.jar
+2022-11-08 12:20:27,110 [Worker-33: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.openqa.selenium.client-drivers:selenium-java-client-driver:1.0-beta-1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.openqa.selenium.client-drivers:selenium-java-client-driver:jar:sources:1.0-beta-1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:608) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:219) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:577) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:562) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:270) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.100.v20220817-1539.jar:na]
+2022-11-08 12:22:07,151 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://archiva.openqa.org/repository/releases/org/openqa/selenium/server/selenium-server-coreless/1.0-beta-1/selenium-server-coreless-1.0-beta-1-sources.jar
+2022-11-08 12:22:07,241 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openqa/selenium/server/selenium-server-coreless/1.0-beta-1/selenium-server-coreless-1.0-beta-1-sources.jar
+2022-11-08 12:22:07,244 [Worker-33: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.openqa.selenium.server:selenium-server-coreless:1.0-beta-1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.openqa.selenium.server:selenium-server-coreless:jar:sources:1.0-beta-1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:608) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:219) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:577) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:562) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205) ~[na:na]
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:270) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.100.v20220817-1539.jar:na]
+2023-03-03 08:57:22,267 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-03 08:58:00,948 [Worker-19: Creating project "siemens"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: siemens:siemens:0.0.1-SNAPSHOT @ C:\Users\NathalieBLITTE\eclipse-workspace\siemens\pom.xml.
+2023-03-03 08:58:01,203 [Worker-19: Creating project "siemens"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /siemens/src/main/java
+2023-03-03 08:58:01,204 [Worker-19: Creating project "siemens"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /siemens/src/main/resources
+2023-03-03 08:58:01,205 [Worker-19: Creating project "siemens"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /siemens/src/test/java
+2023-03-03 08:58:01,205 [Worker-19: Creating project "siemens"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /siemens/src/test/resources
+2023-03-03 08:58:01,540 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-03 08:58:01,542 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 08:58:01,545 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-03 08:58:01,546 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 08:58:01,747 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - org.codehaus.mojo:selenium-maven-plugin/maven-metadata.xmlfailed to transfer from http://snapshots.repository.codehaus.org during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo:selenium-maven-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): snapshots.repository.codehaus.org
+2023-03-03 08:58:01,842 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-03 08:58:01,842 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NathalieBLITTE\eclipse-workspace\testeur\src\main\resources
+2023-03-03 08:58:01,845 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-03 08:58:01,846 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-03 08:59:39,983 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: siemens:siemens:0.0.1-SNAPSHOT @ C:\Users\NathalieBLITTE\eclipse-workspace\siemens\pom.xml.
+2023-03-03 08:59:40,038 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 08:59:40,038 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 08:59:40,040 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 08:59:40,040 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 08:59:41,139 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 08:59:41,140 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 08:59:41,142 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 08:59:41,142 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 09:00:34,833 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 09:00:34,833 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 09:00:34,835 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 09:00:34,835 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 09:00:34,840 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-03 09:00:34,840 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NathalieBLITTE\eclipse-workspace\testeur\src\main\resources
+2023-03-03 09:00:34,841 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-03 09:00:34,843 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 09:01:49,834 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 09:01:49,834 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 09:01:49,836 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 09:01:49,836 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 09:02:00,548 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 09:02:00,548 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 09:02:00,550 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 09:02:00,550 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 09:02:23,581 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-03 09:02:23,739 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: siemens:siemens:0.0.1-SNAPSHOT @ C:\Users\NathalieBLITTE\eclipse-workspace\siemens\pom.xml.
+2023-03-03 09:02:23,802 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /siemens/src/main/java
+2023-03-03 09:02:23,803 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /siemens/src/main/resources
+2023-03-03 09:02:23,807 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /siemens/src/test/java
+2023-03-03 09:02:23,808 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /siemens/src/test/resources
+2023-03-03 09:02:23,876 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-03-03 09:02:24,013 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 09:02:24,014 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 09:02:24,015 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 09:02:24,016 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 09:27:08,793 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: formation.devops:siemens:0.0.1-SNAPSHOT @ C:\Users\NathalieBLITTE\eclipse-workspace\siemens\pom.xml.
+2023-03-03 09:27:08,864 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 09:27:08,865 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-03 09:27:08,867 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-03 09:27:08,868 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
