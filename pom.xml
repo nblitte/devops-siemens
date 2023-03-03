@@ -46,15 +46,8 @@
             <artifactId>maven-surefire-plugin</artifactId>
             <version>3.0.0-M9</version>
                 <configuration>
-                !--Possibilité d'exclure avec certains tags ou expressions-->
-                   <!-- <includeJUnit5Engines>
-                    <
-                    <engine>TNR_**</engine>
-                </includeJUnit5Engines>
-                <excludeJUnit5Engines>
-                    <engine>WI6.1.20_**</engine>
-                </excludeJUnit5Engines>
-                -->
+                <!--Possibilité d'exclure avec certains tags ou expressions-->
+
                 <includes>
                     <include>WI6.1.20_*.java</include>
                 </includes>
